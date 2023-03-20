@@ -1,2 +1,7 @@
 #!/bin/bash
+<<<<<<< HEAD
 gcc $CFILE -S
+=======
+gcc -S $CFILE -o 'echo $CFILE | cut  -d. -f1'.s
+
+>>>>>>> f43b86ef6cad494c2c48eb6257dcef8c3370e577
